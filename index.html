@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taş,Kağit,Makas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Taş Kağıt Makas Oyunu</h1>
+    <div id="game">
+      <div id="player-choice">
+        <h2>Senin Seçimin</h2>
+        <ul>
+          <li><button id="rock">Taş</button><img src="photo/1682025412956.jpg" id="taş" alt=""></li>
+          <li><button id="paper">Kağıt</button><img src="photo/kagit-1.jpg" id="kağıt" alt=""></li>
+          <li><button id="scissors">Makas</button><img src="photo/makas.jpg" id="makas"alt=""></li>
+        </ul>
+      </div>
+      <div id="winner">
+        <h2>Kazanan</h2>
+        <p id="winner-text"></p>
+      </div>
+    </div>
+    <div id="scoreboard">
+      <h2>Skor Tablosu</h2>
+      <ul>
+        <li>Sen: <span id="player-score">0</span></li>
+        <li>Bilgisayar: <span id="computer-score">0</span></li>
+      </ul>
+    </div>
+    <script src="proje.js"></script>
+</body>
+</html>

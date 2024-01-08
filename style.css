@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+    text-align: center;
+}
+#taş{
+    height: 100px;
+}
+#kağıt{
+    height: 100px;
+}
+#makas{
+    height: 100px;
+}
+#rock{
+    background-color:white
+}
+#paper{
+    background-color: white;
+}
+#scissors{
+    background-color: white;
+}
